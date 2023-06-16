@@ -1,0 +1,263 @@
+/*
+*{border: 1px solid blue;}
+*/
+
+body{
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+/*######################### HEADER ##########################*/
+
+
+.header {
+    background-color: #E5F4E3;
+    color: white;
+    padding: 20px 10%;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.headerleft,
+.headerright {
+    display: flex;
+    flex: 1;
+}
+
+.headerleft {
+    justify-content: flex-start;
+}
+
+.headerright {
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 10%;
+    min-height: 0;
+}
+
+.Logo{
+    white-space: nowrap;
+    width: 100px;
+}
+
+
+.headerlink {
+    text-decoration: none;
+    color: #e2e4e6;
+    font-size: 18px;
+    white-space: nowrap;
+    min-height: 0;
+}
+
+
+/*######################### MAIN ##########################*/
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------------- MAIN TOP --------------------*/
+
+.main-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 93vh;
+
+    background-color: #E5F4E3;
+}
+
+.hero-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-sub-title{
+    font-size: 18px;
+    color: #e2e4e6;
+}
+
+.sign-up-top{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5px;
+    border: none;
+}
+.sign-up-top:hover{
+
+    background-color: #1F2937;
+    border: 1.5px solid #e2e4e6;
+    color: #e2e4e6;
+}
+
+.hero-picture{
+    
+    width: 400px;
+    height: auto;
+    justify-content: flex-start;
+}
+
+
+/*-------------------- MAIN MIDDLE --------------------*/
+
+.main-middle{
+    padding: 80px 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    text-align: center;
+}
+
+.main-middle-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.main-middle-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px 20px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{
+    width: 180px;
+    border-radius: 5px;
+}
+
+.item-text {
+    font-size: 18px;
+    color: #1F2937;
+    width: 180px;
+}
+
+/*-------------------- MAIN BOTTOM --------------------*/
+
+.main-bottom{
+    background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 120px 15%;
+}
+
+.main-bottom-text{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+.main-bottom-quote{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/*---------------------- MAIN ACTION ----------------------*/
+
+.main-action{
+    padding: 120px 10%;
+}
+
+.main-action-container{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px 10%;
+    gap: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-action-header{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-action-lower{
+    color: #e2e4e6;
+    font-size: 18px;
+}
+
+.main-action-button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 3px;
+    border: 1.5px solid white;
+}
+
+.main-action-button:hover{
+    background-color: #F9FAF8;
+    border: none;
+    color: #3882f6;
+}
+
+button{
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: large;
+}
+
+
+
+/*######################### FOOTER ##########################*/
+
+.footer {
+
+    background-color: #1F2937;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #e2e4e6;
+    font-size: 18px;
+    white-space: nowrap;
+    height: 140px;
+}
